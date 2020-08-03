@@ -1,15 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Grid} from './components/Block'
-
+import Tetris from './components/Tetris';
 
 
 function App() {
   return (
     <div className="App">
       <div id="container">
-        <Grid />
+        <Tetris />
       </div>
     </div>
   );
