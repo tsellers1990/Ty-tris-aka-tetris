@@ -5,3 +5,8 @@ export const createStage = () =>
   Array.from(Array(STAGE_HEIGHT), () =>
     new Array(STAGE_WIDTH).fill([0, "clear"])
   );
+
+export const checkCollision = () => {
+  //if this.location will overwrite that.location on the next move, then return collision = true
+  //use a ternery operator for that tbh
+}

@@ -28,7 +28,17 @@ const Tetris = () => {
   }
   
   const drop = () => {
+    //make a function to check collision
+    //if it's collided then return game over
+      //alert gameover
+      //set game over to true
+      //stop the drop timer
+    //if it's not collided, updateplayerpos with y increasing by one
+
+    //
+
     updatePlayerPos({ x:0, y:1, collided: false})
+
   }
 
   const dropPlayer = () => {
