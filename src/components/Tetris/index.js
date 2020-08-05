@@ -21,8 +21,10 @@ const Tetris = () => {
   }
 
   const startGame = () => {
+    console.log("started")
     setStage(createStage());
     resetPlayer();
+    setGameOver(false);
   }
   
   const drop = () => {
@@ -59,7 +61,7 @@ const Tetris = () => {
               <Display text="Level" />
             </div>
           )}
-          <StartButton onClick={startGame}/>
+          <StartButton callBack={startGame}/>
         </aside>
       </StyledTetris>
     </StyledTetrisWrapper>
